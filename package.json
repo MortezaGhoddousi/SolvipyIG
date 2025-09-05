@@ -1,13 +1,13 @@
 {
     "name": "ig-webhook",
     "version": "1.0.0",
-    "main": "instagram-webhook.js",
+    "main": "instagram.js",
     "engines": {
         "node": ">=18"
     },
     "scripts": {
-        "start": "node instagram-webhook.js",
-        "dev": "nodemon instagram-webhook.js"
+        "start": "node instagram.js",
+        "dev": "nodemon instagram.js"
     },
     "dependencies": {
         "dotenv": "^16.4.5",

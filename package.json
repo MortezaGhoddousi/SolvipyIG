@@ -7,13 +7,15 @@
     },
     "scripts": {
         "start": "node instagram.js",
-        "dev": "nodemon instagram.js"
+        "dev": "nodemon instagram.js",
+        "build": "esbuild instagram.js --bundle --platform=node --outfile=dist/app.js"
     },
     "dependencies": {
         "dotenv": "^16.4.5",
         "express": "^4.19.2"
     },
     "devDependencies": {
+        "esbuild": "^0.25.9",
         "nodemon": "^3.0.1"
     }
 }

@@ -1,8 +1,5 @@
 {
     "rewrites": [
-        {
-            "source": "/webhook/instagram",
-            "destination": "/api/webhook/instagram"
-        }
+        { "source": "/webhook/instagram", "destination": "/api/instagram" }
     ]
 }
